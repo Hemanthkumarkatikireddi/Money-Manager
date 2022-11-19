@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.transaction-list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+  justify-content: space-between;
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+}
+.delete-btn {
+  height: 20px;
+  width: 20px;
+}
+@media screen and (min-width: 300px) {
+  .delete-btn {
+    height: 10px;
+    width: 10px;
+  }
+}
+@media screen and (min-width: 560px) {
+  .delete-btn {
+    height: 12px;
+    width: 12px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .delete-btn {
+    height: 15px;
+    width: 15px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .delete-btn {
+    height: 18px;
+    width: 18px;
+  }
+}
+.text {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background: transparent;
+  border: 0px;
+}

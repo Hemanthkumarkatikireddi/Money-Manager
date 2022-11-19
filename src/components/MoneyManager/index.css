@@ -1,0 +1,316 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+}
+.content-container {
+  width: 95%;
+  margin: 20px;
+  height: 100vh;
+}
+.account-holder {
+  padding: 30px;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+  border-radius: 20px;
+  background-size: auto 220px;
+  background-repeat: no-repeat;
+  font-weight: 600;
+}
+span {
+  color: #0b69ff;
+}
+.balance-boxes {
+  margin: 20px 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.b-boxes {
+  padding: 20px;
+  width: 32%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  font-weight: 600;
+  color: #7e858e;
+  align-items: center;
+}
+.logo {
+  height: 80px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.balance-box {
+  border: 3px solid #84cc16;
+  background-color: #ecfccb;
+}
+.income-box {
+  border: 3px solid #06b6d4;
+  background-color: #cffafe;
+}
+.expenses-box {
+  border: 3px solid #06b6d4;
+  background-color: #ede9fe;
+}
+/* .img-width {
+} */
+.box-heading {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.cash {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.transaction-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.transaction-box {
+  width: 30%;
+  padding: 20px;
+  border: 2px solid #cbd5e1;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+}
+.form-data {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin: 10px 0px;
+  font-weight: 500;
+  font-size: small;
+  color: #7e858e;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  margin-bottom: 10px;
+}
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+}
+.btn {
+  width: 100px;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  color: #ffff;
+  font-weight: 600;
+  background-color: #0b69ff;
+}
+.history-box {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  width: 68%;
+  border: 2px solid #cbd5e1;
+  border-radius: 13px;
+}
+.history-main {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.head-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: 200;
+  padding: 15px;
+}
+
+.table-header {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+}
+.table {
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.box-heading {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 300px) {
+  .img-width {
+    width: 10%;
+  }
+  .logo {
+    height: 30px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .box-heading-view {
+    font-weight: 400;
+    font-size: 10px;
+  }
+  .value {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .transaction-box {
+    width: 49%;
+    font-size: 10px;
+  }
+  .history-box {
+    width: 49%;
+    font-size: 10px;
+  }
+  .table {
+    width: 100%;
+  }
+  .text {
+    font-size: 9px;
+  }
+  .head-main {
+    padding: 0px;
+  }
+  label {
+    padding: 0px;
+    font-size: 8px;
+  }
+  input {
+    padding: 5px;
+    font-size: 10px;
+  }
+  select {
+    font-size: 10px;
+    padding: 5px;
+  }
+}
+@media screen and (min-width: 560px) {
+  .img-width {
+    width: 20%;
+  }
+  .logo {
+    height: 40px;
+    margin-left: 10px;
+    padding: 5px;
+  }
+  .box-heading-view {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .value {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .transaction-box {
+    width: 39%;
+    font-size: 10px;
+  }
+  .history-box {
+    width: 59%;
+    font-size: 12px;
+  }
+  .table {
+    width: 100%;
+  }
+  .text {
+    font-size: 12px;
+  }
+  .head-main {
+    padding: 0px;
+  }
+  label {
+    padding: 0px;
+    font-size: 10px;
+  }
+  input {
+    padding: 7px;
+    font-size: 12px;
+  }
+  select {
+    font-size: 12px;
+    padding: 7px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .img-width {
+    width: 20%;
+  }
+  .logo {
+    height: 55px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .box-heading-view {
+    font-size: 12px;
+  }
+  .value {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .transaction-box {
+    width: 39%;
+    font-size: 10px;
+  }
+  .history-box {
+    width: 59%;
+    font-size: 10px;
+  }
+  .table {
+    width: 100%;
+  }
+  .text {
+    font-size: 15px;
+  }
+  .head-main {
+    padding: 0px;
+  }
+  label {
+    padding: 0px;
+    font-size: 10px;
+  }
+  input {
+    padding: 10px;
+    font-size: 14px;
+  }
+  select {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .img-width {
+    width: 30%;
+  }
+  .logo {
+    height: 80px;
+    margin-left: 20px;
+    padding: 10px;
+  }
+  .box-heading-view {
+    font-size: 18px;
+  }
+  .value {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+}
