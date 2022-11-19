@@ -123,7 +123,6 @@ class MoneyManager extends Component {
     const balanceAmount = this.getBalance()
     const expensesAmount = this.getExpenses()
     const incomeAmount = this.income()
-    console.log(titleInput, valueInput)
 
     return (
       <div className="main-container">
